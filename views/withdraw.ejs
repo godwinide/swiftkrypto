@@ -109,7 +109,6 @@
                               <th>Reference</th>
                               <th>Payment Method</th>
                               <th>Amount</th>
-                              <th>Date</th>
                               <th>Status</th>
                             </tr>
                           </thead>
@@ -119,7 +118,6 @@
                               <td><%= dep.reference %></td>
                               <td><%= dep.method %></td>
                               <td><%= comma(dep.amount) %></td>
-                              <td><%= new Date(dep.date).toDateString() %></td>
               
                               <% if (dep.status == 'pending') {%>
                               <td class="bg-warning"><%= dep.status %></td>
