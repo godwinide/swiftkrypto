@@ -39,7 +39,7 @@ app.use(function (req, res, next) {
   res.locals.usdtAddress = ""
   res.locals.btcAddress = "bc1qqsasgakn4r86fq5p78j56fjszetn0sdsrffz6h"
   res.locals.ethAddress = "0x96dB3B2Bec44d74E9E0670A38D5Adffa6aF6cAA0"
-  res.locals.tidioLink = "//code.tidio.co/wjgqtugpbo69ecnwvnioivnn9oxkz7kj.js"
+  res.locals.tidioLink = "//code.jivosite.com/widget/wpXERX5yB5"
   res.locals.success_msg = req.flash('success_msg');
   res.locals.error_msg = req.flash('error_msg');
   res.locals.error = req.flash('error');
